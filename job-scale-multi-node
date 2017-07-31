@@ -1,6 +1,7 @@
 #!/bin/bash -l 
-#SBATCH -p development
-#SBATCH -n 8
+#SBATCH -p normal
+#SBATCH -N 12
+#SBATCH -n 192
 #SBATCH -t 00:20:00 
 #SBATCH -J multi-HW3
 #SBATCH -o multi-HW3.%j.out
